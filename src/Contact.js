@@ -36,7 +36,9 @@ const Contact = () => {
 
   return (
     <Wrapper>
-      <h2 className="common-heading" style={{marginTop: "-3rem"}}>Contact with us</h2>
+      <h2 className="common-heading" style={{ marginTop: "-3rem" }}>
+        Contact with us
+      </h2>
 
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7252.222508415827!2d89.39886162704492!3d24.654298586606103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdb32dfd789943%3A0xe7f2b001cc8988c1!2sMamursahi!5e0!3m2!1sen!2sbd!4v1674903560564!5m2!1sen!2sbd"
@@ -52,7 +54,7 @@ const Contact = () => {
       <div className="container">
         <div className="contact-form">
           <form
-            action="https://formspree.io/f/xeqdgwnq"
+            action="https://formspree.io/f/meqweand"
             method="POST"
             className="contact-inputs"
           >
