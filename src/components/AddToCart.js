@@ -23,7 +23,7 @@ const AddToCart = ({ product }) => {
     <Wrapper>
       <div className="colors">
         <p>
-          Color:
+          Colors:
           {colors.map((curColor, index) => {
             return (
               <button
