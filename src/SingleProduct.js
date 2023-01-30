@@ -50,7 +50,7 @@ const SingleProduct = () => {
             <MyImage imgs={image} />
           </div>
 
-          {/* product dAta  */}
+          {/* product data  */}
           <div className="product-data">
             <h2>{name}</h2>
             <Star stars={stars} reviews={reviews} />
@@ -78,7 +78,7 @@ const SingleProduct = () => {
 
               <div className="product-warranty-data">
                 <TbTruckDelivery className="warranty-icon" />
-                <p>Thapa Delivered </p>
+                <p>Chandu Delivered </p>
               </div>
 
               <div className="product-warranty-data">
