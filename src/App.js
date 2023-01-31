@@ -1,15 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import About from "./About";
-import Cart from "./Cart";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Contact from "./Contact";
-import ErrorPage from "./ErrorPage";
-import { GlobalStyle } from "./GlobalStyle";
-import Home from "./Home";
-import Products from "./Products";
-import SingleProduct from "./SingleProduct";
+import About from "./pages/About";
+import Cart from "./pages/Cart";
+import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import SingleProduct from "./pages/SingleProduct";
+import { GlobalStyle } from "./styles/GlobalStyle";
 
 function App() {
   const theme = {

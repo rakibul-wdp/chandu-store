@@ -3,13 +3,13 @@ import { MdSecurity } from "react-icons/md";
 import { TbReplace, TbTruckDelivery } from "react-icons/tb";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import AddToCart from "./components/AddToCart";
-import MyImage from "./components/MyImage";
-import PageNavigation from "./components/PageNavigation";
-import Star from "./components/Star";
-import { useProductContext } from "./context/productcontex";
-import FormatPrice from "./Helpers/FormatPrice";
-import { Container } from "./styles/Container";
+import AddToCart from "../components/AddToCart";
+import MyImage from "../components/MyImage";
+import PageNavigation from "../components/PageNavigation";
+import Star from "../components/Star";
+import { useProductContext } from "../context/productcontex";
+import FormatPrice from "../Helpers/FormatPrice";
+import { Container } from "../styles/Container";
 
 const API = "https://api.pujakaitem.com/api/products";
 
@@ -25,7 +25,6 @@ const SingleProduct = () => {
     company,
     price,
     description,
-    category,
     stock,
     stars,
     reviews,
