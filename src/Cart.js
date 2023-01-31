@@ -1,7 +1,30 @@
 import styled from "styled-components";
+import CartItem from "./components/CartItem";
+import { useCartContext } from "./context/cart_context";
 
 const Cart = () => {
-  return <Wrapper></Wrapper>;
+  const { cart } = useCartContext();
+
+  return (
+    <Wrapper>
+      <div className="container">
+        <div className="cart_heading grid grid-five-column">
+          <p>Item</p>
+          <p className="cart-hide">Price</p>
+          <p>Quantity</p>
+          <p className="cart-hide">Subtotal</p>
+          <p>Remove</p>
+        </div>
+        <hr />
+
+        <div className="cart-item">
+          {cart.map((curElem) => {
+            return <CartItem key={curElem.id} {...curElem} />;
+          })}
+        </div>
+      </div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.section`
